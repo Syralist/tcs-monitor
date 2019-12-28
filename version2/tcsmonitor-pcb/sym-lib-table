@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name arduino)(type Legacy)(uri /home/thomas/workspace/arduino-kicad-library/arduino.lib)(options "")(descr ""))
+)
