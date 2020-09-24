@@ -1,11 +1,13 @@
 {
     "automation_type": "trigger",
-    "payload": "e22e280",
+    "payload": "0e22e280",
     "topic": "home/flur/klingel",
     "type": "button_short_press",
     "subtype": "button_1",
     "device": {
         "name": "Klingel Sensor",
-        "identifiers": "esp8266-14c4ed"
+        "identifiers": "esp8266-14c4ed",
+	"manufacturer": "Syralist",
+	"model": "tcs-interrupt"
     }
 }

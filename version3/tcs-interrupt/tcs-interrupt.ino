@@ -424,7 +424,7 @@ void loop()
         Serial.println();
 
         char byte_cmd[9];
-        sprintf(byte_cmd, "%04x", CMD);
+        sprintf(byte_cmd, "%08x", CMD);
         client.publish(mqtt_topic, byte_cmd);
     }
 }
