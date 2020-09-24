@@ -1,0 +1,11 @@
+{
+    "automation_type": "trigger",
+    "payload": "e22e280",
+    "topic": "home/flur/klingel",
+    "type": "button_short_press",
+    "subtype": "button_1",
+    "device": {
+        "name": "Klingel Sensor",
+        "identifiers": "esp8266-14c4ed"
+    }
+}
